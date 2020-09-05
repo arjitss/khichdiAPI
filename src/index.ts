@@ -1,19 +1,29 @@
-/**
- * This is an example function.
- *
- * @remarks
- * This method is part of first ctemplate ommit and should / will be removed.
- *
- * @param a - The first input number
- * @param b - The second input number
- * @returns The sum of `a` and `b`
- *
- */
-const sampleFile = (a: number, b: number): number => {
-  console.log(`Hello World..! Hi - ${a + b}`);
-  return a + b;
-};
+import dotenv from 'dotenv';
+import express from 'express';
 
-sampleFile(6, 4);
+import { KhichdiController } from './Controllers/KhichdiController';
 
-export default sampleFile;
+const port = 3000;
+const app = express();
+dotenv.config();
+
+// TODO:
+// 1. Exception Handling
+// 2. Error Response Handling
+// 3. Remove unnecessary index.test.ts file
+
+// Fire Controllers
+KhichdiController(app);
+
+const server = app.listen(port, () => {
+  console.log(`server started at http://localhost:${port}`);
+});
+
+export default server;
+
+// process.on('SIGINT', function () {
+//   console.log('\nGracefully shutting down from SIGINT (Ctrl-C)');
+//   // some other closing procedures go here
+//   server.close();
+//   process.exit(1);
+// });

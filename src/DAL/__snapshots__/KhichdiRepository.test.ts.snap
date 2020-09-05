@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Repository Test Cases  1`] = `
+Object {
+  "matchedCount": 1,
+  "modifiedCount": 2,
+  "upsertedCount": 3,
+}
+`;
+
+exports[`Repository Test Cases getMeTheOptionsFromRepoAsync - Success 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "Cuisine": "Indian",
+      "Likes": 156,
+      "_id": "5f33beb4f558afa75a80f17d",
+      "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+      "keyIngrediants": Array [
+        "Potatoes",
+        "Cabbage",
+      ],
+      "name": "Aaloo Patta Gobhi",
+      "typeofFood": "SideDish",
+    },
+  ],
+}
+`;
