@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>&quot;index&quot; | khichdi-api</title>
+	<title>&quot;Models/menuItems&quot; | khichdi-api</title>
 	<meta name="description" content="Documentation for khichdi-api">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,10 +56,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="_index_.html">&quot;index&quot;</a>
+					<a href="_models_menuitems_.html">&quot;Models/menuItems&quot;</a>
 				</li>
 			</ul>
-			<h1>Module &quot;index&quot;</h1>
+			<h1>Module &quot;Models/menuItems&quot;</h1>
 		</div>
 	</div>
 </header>
@@ -71,45 +71,76 @@
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
+							<h3>Type aliases</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-type-alias tsd-parent-kind-module"><a href="_models_menuitems_.html#menuitem" class="tsd-kind-icon">menu<wbr>Item</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
 							<h3>Variables</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported"><a href="_index_.html#app" class="tsd-kind-icon">app</a></li>
-								<li class="tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported"><a href="_index_.html#port" class="tsd-kind-icon">port</a></li>
-								<li class="tsd-kind-variable tsd-parent-kind-module"><a href="_index_.html#server" class="tsd-kind-icon">server</a></li>
+								<li class="tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported"><a href="_models_menuitems_.html#schema" class="tsd-kind-icon">Schema</a></li>
+								<li class="tsd-kind-variable tsd-parent-kind-module"><a href="_models_menuitems_.html#menuitemschema" class="tsd-kind-icon">menu<wbr>Item<wbr>Schema</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Variables</h2>
-				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported">
-					<a name="app" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagConst">Const</span> app</h3>
-					<div class="tsd-signature tsd-kind-icon">app<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Express</span><span class="tsd-signature-symbol"> = express()</span></div>
+				<h2>Type aliases</h2>
+				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-parent-kind-module">
+					<a name="menuitem" class="tsd-anchor"></a>
+					<h3>menu<wbr>Item</h3>
+					<div class="tsd-signature tsd-kind-icon">menu<wbr>Item<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>Cuisine<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>Likes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>keyIngrediants<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">; </span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>typeofFood<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/arjitss/khichdiAPI/blob/891a4c1/src/index.ts#L7">index.ts:7</a></li>
+							<li>Defined in <a href="https://github.com/arjitss/khichdiAPI/blob/891a4c1/src/Models/menuItems.ts#L3">Models/menuItems.ts:3</a></li>
 						</ul>
 					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Cuisine<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Likes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>key<wbr>Ingrediants<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>typeof<wbr>Food<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+					</div>
 				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Variables</h2>
 				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported">
-					<a name="port" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagConst">Const</span> port</h3>
-					<div class="tsd-signature tsd-kind-icon">port<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">3000</span><span class="tsd-signature-symbol"> = 3000</span></div>
+					<a name="schema" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> Schema</h3>
+					<div class="tsd-signature tsd-kind-icon">Schema<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Schema</span><span class="tsd-signature-symbol"> = mongoose.Schema</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/arjitss/khichdiAPI/blob/891a4c1/src/index.ts#L6">index.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/arjitss/khichdiAPI/blob/891a4c1/src/Models/menuItems.ts#L12">Models/menuItems.ts:12</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-module">
-					<a name="server" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagConst">Const</span> server</h3>
-					<div class="tsd-signature tsd-kind-icon">server<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Server</span><span class="tsd-signature-symbol"> = app.listen(port, () &#x3D;&gt; {console.log(&#x60;server started at http://localhost:${port}&#x60;);})</span></div>
+					<a name="menuitemschema" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> menu<wbr>Item<wbr>Schema</h3>
+					<div class="tsd-signature tsd-kind-icon">menu<wbr>Item<wbr>Schema<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Schema</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new Schema({id: String,name: String,typeofFood: String,keyIngrediants: [String],Cuisine: String,Likes: Number})</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/arjitss/khichdiAPI/blob/891a4c1/src/index.ts#L18">index.ts:18</a></li>
+							<li>Defined in <a href="https://github.com/arjitss/khichdiAPI/blob/891a4c1/src/Models/menuItems.ts#L13">Models/menuItems.ts:13</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -133,7 +164,7 @@
 					<li class=" tsd-kind-module">
 						<a href="_dal___mocks___khichdirepository_.html">&quot;DAL/__mocks__/<wbr>Khichdi<wbr>Repository&quot;</a>
 					</li>
-					<li class=" tsd-kind-module">
+					<li class="current tsd-kind-module">
 						<a href="_models_menuitems_.html">&quot;<wbr>Models/menu<wbr>Items&quot;</a>
 					</li>
 					<li class=" tsd-kind-module">
@@ -142,21 +173,21 @@
 					<li class=" tsd-kind-module">
 						<a href="_service___mocks___khichdiservice_.html">&quot;<wbr>Service/__mocks__/<wbr>Khichdi<wbr>Service&quot;</a>
 					</li>
-					<li class="current tsd-kind-module">
+					<li class=" tsd-kind-module">
 						<a href="_index_.html">&quot;index&quot;</a>
 					</li>
 				</ul>
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported">
-						<a href="_index_.html#app" class="tsd-kind-icon">app</a>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
+						<a href="_models_menuitems_.html#menuitem" class="tsd-kind-icon">menu<wbr>Item</a>
 					</li>
 					<li class=" tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported">
-						<a href="_index_.html#port" class="tsd-kind-icon">port</a>
+						<a href="_models_menuitems_.html#schema" class="tsd-kind-icon">Schema</a>
 					</li>
 					<li class=" tsd-kind-variable tsd-parent-kind-module">
-						<a href="_index_.html#server" class="tsd-kind-icon">server</a>
+						<a href="_models_menuitems_.html#menuitemschema" class="tsd-kind-icon">menu<wbr>Item<wbr>Schema</a>
 					</li>
 				</ul>
 			</nav>

@@ -1,4 +1,4 @@
-import a from './index';
+import server from './index';
 
 /**
  * This is an example test function.
@@ -8,15 +8,19 @@ import a from './index';
  *
  */
 
-describe('Test Framework', () => {
+jest.mock('express', () => {
+  const mockedExpress = () => {
+    return {
+      get: jest.fn(),
+      use: jest.fn(),
+      listen: jest.fn()
+    };
+  };
+});
+
+// TODO: Removed this test file if not required
+describe('Function Setup', () => {
   test('Sample Test', () => {
-    // Arrange
-    const x = 2;
-    const y = 3;
-    // Act
-    const z = a(x, y);
-    // Assert
-    expect(z).toBe(5);
-    expect(z).toMatchSnapshot();
+    expect(1).toBe(1);
   });
 });

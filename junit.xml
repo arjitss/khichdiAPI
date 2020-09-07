@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="0" time="7.32">
-  <testsuite name="Test Framework" errors="0" failures="0" skipped="0" timestamp="2020-08-02T15:28:34" time="2.872" tests="1">
-    <testcase classname="Test Framework Sample Test" name="Test Framework Sample Test" time="0.017">
+<testsuites name="jest tests" tests="7" failures="0" time="69.245">
+  <testsuite name="Khichdi Service Layer Test Cases: " errors="0" failures="0" skipped="0" timestamp="2020-09-05T18:18:06" time="32.687" tests="2">
+    <testcase classname="Khichdi Service Layer Test Cases:   - Get Me the Options: Success" name="Khichdi Service Layer Test Cases:   - Get Me the Options: Success" time="0.015">
+    </testcase>
+    <testcase classname="Khichdi Service Layer Test Cases:  " name="Khichdi Service Layer Test Cases:  " time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Khchidi Controllers Test - " errors="0" failures="0" skipped="0" timestamp="2020-09-05T18:18:06" time="37.735" tests="2">
+    <testcase classname="Khchidi Controllers Test -  : Get Endpoint" name="Khchidi Controllers Test -  : Get Endpoint" time="0.37">
+    </testcase>
+    <testcase classname="Khchidi Controllers Test -  : Post Endpoint" name="Khchidi Controllers Test -  : Post Endpoint" time="0.325">
+    </testcase>
+  </testsuite>
+  <testsuite name="Function Setup" errors="0" failures="0" skipped="0" timestamp="2020-09-05T18:18:40" time="10.605" tests="1">
+    <testcase classname="Function Setup Sample Test" name="Function Setup Sample Test" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="Repository Test Cases" errors="0" failures="0" skipped="0" timestamp="2020-09-05T18:18:06" time="45.519" tests="2">
+    <testcase classname="Repository Test Cases getMeTheOptionsFromRepoAsync - Success" name="Repository Test Cases getMeTheOptionsFromRepoAsync - Success" time="0.02">
+    </testcase>
+    <testcase classname="Repository Test Cases " name="Repository Test Cases " time="0.005">
     </testcase>
   </testsuite>
 </testsuites>
